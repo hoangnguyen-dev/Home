@@ -48,4 +48,10 @@ class PrivacyController {
         let context = [String: String]()
         return req.view.render("keyboard_privacy", context)
     }
+
+    // MARK: Stories
+    func storiesPrivacy(_ req: Request) throws -> EventLoopFuture<View> {
+        let context = [String: String]()
+        return req.view.render("stories_privacy", context)
+    }
 }

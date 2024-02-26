@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width'>
+    <title>Data Deletion</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            padding: 8em;
+        }
+        .center {
+            text-align: center;
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <h4><i>Cool Fonts Secure Notepad Todo</i></h4>
+    <h1 class="center" style="padding: 20px">Cool Fonts</h1>
+    
+    <p><strong>Data Deletion Request</strong></p>
+    <p>
+        As a user, you have certain rights regarding your personal data. You have the right to access, rectify, object to, or erase the data maintained by us. If you wish to request the deletion of your personal data, please follow the steps below:
+    </p>
+        <li>
+        To delete your account and associated data, you can go to the <b><i>My Account</i></b> screen, then tap the <b>•••</b> icon, and select <b><i>Delete Account</i></b> within the application.
+        </li>
+    <p>
+        When you choose <b><i>Delete Account</i></b>, all data, including chestnuts, fonts, decorations, and your account, will be immediately erased.
+    </p>
+    
+    <hr style="margin-top: 2em; margin-bottom: 2em">
+    
+    <p><strong>Read Our <a href="https://hoangnguyenhome.herokuapp.com/keyboard/privacy">Privacy Policy</a> to Understand Data Use</strong></p>
+    
+    <p>
+        We take our users' privacy seriously and are committed to protecting their personal information. To better understand how your data is used by us or our app, we encourage you to read our <a href="https://hoangnguyenhome.herokuapp.com/keyboard/privacy">privacy policy</a>. Our policy provides a detailed explanation of the types of data we collect, how we use it, and who we share it with. We also outline the measures we take to ensure the security and confidentiality of your information.
+    </p>
+    <p>
+        By familiarizing yourself with our privacy policy, you can be assured that your personal information is being handled in a responsible and transparent manner. If you have any questions or concerns about our policy or how your data is being used, please do not hesitate to contact us. We value your trust and appreciate the opportunity to serve you.
+    </p>
+    
+</body>
+
+</html>

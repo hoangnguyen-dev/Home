@@ -48,6 +48,11 @@ class PrivacyController {
         let context = [String: String]()
         return req.view.render("keyboard_privacy", context)
     }
+    
+    func keyboardDateDeletion(_ req: Request) throws -> EventLoopFuture<View> {
+        let context = [String: String]()
+        return req.view.render("keyboard_data_deletion", context)
+    }
 
     // MARK: Stories
     func storiesPrivacy(_ req: Request) throws -> EventLoopFuture<View> {

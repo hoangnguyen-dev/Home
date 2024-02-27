@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            padding: 8em;
+            padding: 1em;
         }
         .center {
             text-align: center;

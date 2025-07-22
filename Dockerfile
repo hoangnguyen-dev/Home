@@ -1,7 +1,7 @@
 # ================================
 # Build image
 # ================================
-FROM swift:5.10-focal as build
+FROM swift:6.1.2-focal as build
 
 # Install OS updates and, if needed, sqlite3
 RUN export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true \

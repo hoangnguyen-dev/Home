@@ -59,4 +59,14 @@ class PrivacyController {
         let context = [String: String]()
         return req.view.render("stories_privacy", context)
     }
+    // Ranodm Picker
+    func randomTerms(_ req: Request) throws -> EventLoopFuture<View> {
+        let context = [String: String]()
+        return req.view.render("random_terms", context)
+    }
+    
+    func randomPrivacy(_ req: Request) throws -> EventLoopFuture<View> {
+        let context = [String: String]()
+        return req.view.render("random_privacy", context)
+    }
 }

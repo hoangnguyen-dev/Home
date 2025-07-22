@@ -10,8 +10,6 @@ func routes(_ app: Application) throws {
     }
     
     let controller = PrivacyController()
-    //app.get("terms", use: controller.terms)
-    //app.get("privacy", use: controller.privacy)
     
     // Symbols
     app.get("symbols", "privacy", use: controller.symbolsPrivacy)
@@ -25,4 +23,7 @@ func routes(_ app: Application) throws {
     app.get("keyboard", "data-deletion", use: controller.keyboardDateDeletion)
     // 1001 Nights
     app.get("stories", "privacy", use: controller.storiesPrivacy)
+    // Random Picker
+    app.get("random", "terms", use: controller.randomTerms)
+    app.get("random", "privacy", use: controller.randomPrivacy)
 }

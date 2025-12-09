@@ -28,5 +28,6 @@ func routes(_ app: Application) throws {
     // Random Picker
     app.get("random", "terms", use: controller.randomTerms)
     app.get("random", "privacy", use: controller.randomPrivacy)
-
+    // Dice
+    app.get("dice", "privacy", use: controller.dicePrivacy)
 }

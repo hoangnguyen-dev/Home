@@ -69,5 +69,10 @@ class PrivacyController {
         let context = [String: String]()
         return req.view.render("random_privacy", context)
     }
+    
+    func dicePrivacy(_ req: Request) throws -> EventLoopFuture<View> {
+        let context = [String: String]()
+        return req.view.render("dice_privacy", context)
+    }
 
 }

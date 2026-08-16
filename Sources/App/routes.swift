@@ -21,7 +21,7 @@ func routes(_ app: Application) throws {
     // Caro Online
     app.get("caro", "privacy", use: controller.caroOnlinePrivacy)
     // Reversi Online
-    app.get("reversi", "privacy", use: controller.caroOnlinePrivacy)
+    app.get("reversi", "privacy", use: controller.reversiPrivacy)
     // Fonts Keyboard
     app.get("keyboard", "privacy", use: controller.keyboardPrivacy)
     app.get("keyboard", "data-deletion", use: controller.keyboardDateDeletion)

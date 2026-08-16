@@ -75,4 +75,9 @@ class PrivacyController {
         return req.view.render("dice_privacy", context)
     }
 
+    // MARK: Caro Online
+    func reversiPrivacy(_ req: Request) throws -> EventLoopFuture<View> {
+        let context = [String: String]()
+        return req.view.render("reversi_privacy", context)
+    }
 }
